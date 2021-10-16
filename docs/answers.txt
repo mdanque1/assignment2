@@ -1,3 +1,10 @@
+GitHub tutorials: 10/15/2021
+Githup Setup: some time in 2017-ish
+
+Repo: https://github.com/mdanque1/assignment2/ 
+
+which ironically is assignment 3
+
 1. Mike@mike-566cj02 MINGW32 ~/Desktop/FSU - CEN4020 - SE I/git_ass3 (master)
 $ git add docs/*.*
 
@@ -65,6 +72,9 @@ projects or in highly hierarchical environments, because as it
 allows the project leader (the dictator) to delegate much of 
 the work and collect large subsets of code at multiple points 
 before integrating them"
+
+
+
 
 
 
