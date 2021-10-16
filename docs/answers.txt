@@ -1,0 +1,71 @@
+1. Mike@mike-566cj02 MINGW32 ~/Desktop/FSU - CEN4020 - SE I/git_ass3 (master)
+$ git add docs/*.*
+
+Mike@mike-566cj02 MINGW32 ~/Desktop/FSU - CEN4020 - SE I/git_ass3 (master)
+$ git commit -m "Add Status document and docs folder"
+[master 2a384e4] Add Status document and docs folder
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+
+Mike@mike-566cj02 MINGW32 ~/Desktop/FSU - CEN4020 - SE I/git_ass3 (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 794 bytes | 794.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mdanque1/assignment2
+   f4975e5..2a384e4  master -> master
+
+2. 9 commits total using: git shortlog -sn --all
+
+3. last (commit) modified: Fri Oct 15 21:22:18 2021 -0400
+
+determined using: git log -1 README.md
+
+but this is kind of a trick question as git records the commits 
+and not the file modifications.
+
+4. Branches are used to allow multiple developers to work on the 
+same codebase without stepping all over each other as the work is isolated
+and to allow easier merging of work.  This allows for easy identification 
+of what code relate sto what feature or changes and to roll back a 
+change if it becomes necessary.  Branches can also be merged in any order.
+
+5. "While git status lets you inspect the working directory and the 
+staging area, git log only operates on the committed history."
+
+6. git log Vehicle.h
+
+7. git log --grep='file'
+
+8. Answers from stackify that are neatly concise:
+
+Inheritance: "is a mechanism where you can to derive a class from 
+another class for a hierarchy of classes that share a set of attributes and methods."
+
+Polymorphism: "objects of different types can be accessed through the 
+same interface. Each type can provide its own, independent implementation 
+of this interface"
+
+Encapsulation: "the idea of bundling data and methods that work on that data within 
+one unit, e.g., a class in Java" ... "often used to hide the internal representation, 
+or state, of an object from the outside"
+
+9. In the integration manager workflow there is once integration manager working 
+to integrate pull requests that are then rebased to all developers once merged,
+whereas the dicatator lieutenants workflow has multiple integration managers 
+responsible for specific silos of code while the dictator integrates the changes 
+of the lieutenants into the main branch.
+
+10. Either would work honestly but "can be useful in very big 
+projects or in highly hierarchical environments, because as it 
+allows the project leader (the dictator) to delegate much of 
+the work and collect large subsets of code at multiple points 
+before integrating them"
+
+
+
+  
